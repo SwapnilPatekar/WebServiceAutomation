@@ -1,0 +1,24 @@
+http://developer.gstsystem.co.in/apiportal/govt/login
+User Name-> GSTG2G11
+Pwd --> Test@321
+
+
+URL= http://uatdeveloper.gstsystem.co.in/apiportal/govt/login
+User Name-> GSTG2G11
+Password= 121212
+OTP= 112233
+
+--------------------------------------------------------------------------
+{
+  "action": "ACCESSTOKEN",
+  "username": "GSTG2G06",
+  "password": "RlA4o+tprA9vcRK9oNNJkSxvOcej3z8e0+1mee7Hq4b53jubWSdxZZylNPo8YwZLaw/6dDXAUUCO32ycdEs+zoyBdBd80Jzq4OiBmrNzqZtnqwpT5mHsRjB9Z507VHxG/8NvLL85fu0SsQ7fKKkQPGSezmbQsFPPIiK8oQrntvZeFC6myftR7B854KtQkQ5izWsbRHzR1jib3dZLQuxPcMas1UMQz7Mn2bJnQATEfMjGk6ddWNoWxxXxPHSFNnoNGG23IaVaOzVHUUaZNbrZgZk7mM2pVv5t3TcrdPQTNtPgOWZh4GFWLnAQl3e97lzJY+NwsK2nPoZ2UrPdl47rJA==",
+  "app_key": "if08z6dmLE8nwx+3VgKPrq22WJQ1om6JCjPkXHW363/jBlAupAQaKZfp1n8muwzqC9NLAKRt0GXFTcgrZ6wLFbFbAz2z3Lu7C8DgJoJiHUn6lEydwQCAgiWrfgFBZ2m5VdraiKQZXqIZposQymFgt/pV9MdKEu83LA9Ddt22g7jG2U0fP76JG+x91EqtD3MkxNHKXZnrjkD2k6ID7WDG+cakSMPZjUorPwMr+Avu+ZIVIbQUpl7Qb8MUoBufQ9203eRwO7XWgoE14sHt4ySLxh0AVtwqSpmWzr6KVFwV/hdB+oD0EKd/HV5pGxxeSe7toqQ7xgyVzJODW/tzU+E8Aw=="
+}
+====================================================
+State_cd : 27
+Client ID : l7xxdb432cd677a344f0b779e31ffada3f64
+Client Secret : 28345533f6834730a00c3e0699f31607
+User Name : GSTG2G27
+Password : Mah@27236
+APP_KEY Encoded : +Fn3siHv3glldYPdcVPSM+IjKviMNBLoV2jg9t+Sfps=

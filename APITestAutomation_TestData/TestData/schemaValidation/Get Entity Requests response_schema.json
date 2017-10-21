@@ -1,0 +1,1116 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"properties": {
+		"adbzdtls": {
+			"items": {
+				"properties": {
+					"add": {
+						"properties": {
+							"bnm": {
+								"type": "string"
+							},
+							"bno": {
+								"type": "string"
+							},
+							"flno": {
+								"type": "string"
+							},
+							"lg": {
+								"type": "string"
+							},
+							"loc": {
+								"type": "string"
+							},
+							"lt": {
+								"type": "string"
+							},
+							"pncd": {
+								"type": "string"
+							},
+							"st": {
+								"type": "string"
+							},
+							"stcd": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"loc",
+							"dst",
+							"pncd",
+							"stcd",
+							"st",
+							"bno"
+						],
+						"type": "object"
+					},
+					"contdtls": {
+
+						"properties": {
+							"em": {
+								"type": "string"
+							},
+							"fxno": {
+
+								"properties": {
+									"fxNum": {
+										"type": "string"
+									},
+									"stdCd": {
+										"type": "string"
+									}
+								},
+								"required": [
+									"stdCd",
+									"fxNum"
+								],
+								"type": "object"
+							},
+							"mbno": {
+								"type": "string"
+							},
+							"tlphno": {
+
+								"properties": {
+									"stdCd": {
+										"type": "string"
+									},
+									"telNum": {
+										"type": "string"
+									}
+								},
+								"required": [
+									"stdCd",
+									"telNum"
+								],
+								"type": "object"
+							}
+						},
+						"required": [
+							"mbno",
+							"em"
+						],
+						"type": "object"
+					},
+					"dcupdtls": {
+
+						"items": {
+
+							"properties": {
+								"hash": {
+									"type": "string"
+								},
+								"id": {
+									"type": "string"
+								},
+								"ty": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"hash",
+								"id",
+								"ty"
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"eid": {
+						"type": "string"
+					},
+					"ntbz": {
+
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"otherntbz": {
+						"type": "string"
+					},
+					"psnt": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"add",
+					"psnt",
+					"eid",
+					"ntbz",
+					"contdtls"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"arepdtls": {
+
+			"properties": {
+				"em": {
+					"type": "string"
+				},
+				"enrlnum": {
+					"type": "string"
+				},
+				"fn": {
+					"type": "string"
+				},
+				"ln": {
+					"type": "string"
+				},
+				"mbno": {
+					"type": "string"
+				},
+				"mn": {
+					"type": "string"
+				},
+				"sts": {
+					"type": "string"
+				}
+			},
+			"required": [],
+			"type": "object"
+		},
+		"asgdtls": {
+
+			"items": {
+
+				"properties": {
+					"dcupdtls": {
+
+						"items": {
+
+							"properties": {
+								"hash": {
+									"type": "string"
+								},
+								"id": {
+									"type": "string"
+								},
+								"ty": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"hash",
+								"id",
+								"ty"
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"dg": {
+						"type": "string"
+					},
+					"din": {
+
+						"properties": {
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"num"
+						],
+						"type": "object"
+					},
+					"dob": {
+						"type": "string"
+					},
+					"eid": {
+						"type": "string"
+					},
+					"em": {
+						"type": "string"
+					},
+					"fhfn": {
+						"type": "string"
+					},
+					"fhln": {
+						"type": "string"
+					},
+					"fhmn": {
+						"type": "string"
+					},
+					"fn": {
+						"type": "string"
+					},
+					"fxno": {
+
+						"properties": {
+							"fxNum": {
+								"type": "string"
+							},
+							"stdCd": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"stdCd",
+							"fxNum"
+						],
+						"type": "object"
+					},
+					"gd": {
+						"type": "string"
+					},
+					"isasg": {
+						"type": "string"
+					},
+					"iscitind": {
+						"type": "string"
+					},
+					"ispas": {
+						"type": "string"
+					},
+					"ln": {
+						"type": "string"
+					},
+					"mbno": {
+						"type": "string"
+					},
+					"mn": {
+						"type": "string"
+					},
+					"pan": {
+
+						"properties": {
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"num"
+						],
+						"type": "object"
+					},
+					"ppno": {
+						"type": "string"
+					},
+					"rsad": {
+
+						"properties": {
+							"bnm": {
+								"type": "string"
+							},
+							"bno": {
+								"type": "string"
+							},
+							"cnty": {
+								"type": "string"
+							},
+							"dst": {
+								"type": "string"
+							},
+							"flno": {
+								"type": "string"
+							},
+							"loc": {
+								"type": "string"
+							},
+							"pncd": {
+								"type": "string"
+							},
+							"st": {
+								"type": "string"
+							},
+							"stcd": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"loc",
+							"dst",
+							"pncd",
+							"stcd",
+							"st",
+							"bno",
+							"cnty"
+						],
+						"type": "object"
+					},
+					"tlphno": {
+
+						"properties": {
+							"stdCd": {
+								"type": "string"
+							},
+							"telNum": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"stdCd",
+							"telNum"
+						],
+						"type": "object"
+					},
+					"uid": {
+
+						"properties": {
+							"isdecl": {
+								"type": "string"
+							},
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"isdecl",
+							"num"
+						],
+						"type": "object"
+					}
+				},
+				"required": [
+					"em",
+					"uid",
+					"rsad",
+					"gd",
+					"dcupdtls",
+					"ispas",
+					"pan",
+					"iscitind",
+					"dg",
+					"fhfn",
+					"fn",
+					"din",
+					"dob",
+					"isasg",
+					"mbno",
+					"eid"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"bkacdtls": {
+
+			"items": {
+
+				"properties": {
+					"acno": {
+						"type": "string"
+					},
+					"acty": {
+						"type": "string"
+					},
+					"bknm": {
+						"type": "string"
+					},
+					"brad": {
+						"type": "string"
+					},
+					"dcupdtls": {
+
+						"properties": {
+							"hash": {
+								"type": "string"
+							},
+							"id": {
+								"type": "string"
+							},
+							"ty": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"hash",
+							"id",
+							"ty"
+						],
+						"type": "object"
+					},
+					"eid": {
+						"type": "string"
+					},
+					"ifsc": {
+						"type": "string"
+					},
+					"pncd": {
+						"type": "string"
+					},
+					"stcd": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"acty",
+					"ifsc",
+					"acno",
+					"dcupdtls",
+					"bknm",
+					"eid",
+					"brad"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"bzdtls": {
+
+			"properties": {
+				"bzdtlsbz": {
+
+					"properties": {
+						"antoamt": {
+							"type": "string"
+						},
+						"authstatus": {
+							"type": "string"
+						},
+						"cesstuovamt": {
+							"type": "string"
+						},
+						"cgsttuovamt": {
+							"type": "string"
+						},
+						"cmbzdt": {
+							"type": "string"
+						},
+						"cobz": {
+							"type": "string"
+						},
+						"cobz_oth": {
+							"type": "string"
+						},
+						"ctjd": {
+							"type": "string"
+						},
+						"dst": {
+							"type": "string"
+						},
+						"estcessamt": {
+							"type": "string"
+						},
+						"estcgstamt": {
+							"type": "string"
+						},
+						"estigstamt": {
+							"type": "string"
+						},
+						"estsgstamt": {
+							"type": "string"
+						},
+						"estspamt": {
+							"type": "string"
+						},
+						"igsttuovamt": {
+							"type": "string"
+						},
+						"iscasdl": {
+							"type": "string"
+						},
+						"iscmpdecl": {
+							"type": "string"
+						},
+						"isdreg": {
+							"type": "string"
+						},
+						"isopcmp": {
+							"type": "string"
+						},
+						"isthrlmt": {
+							"type": "string"
+						},
+						"lgnmbzpan": {
+							"type": "string"
+						},
+						"lgnmbzst": {
+							"type": "string"
+						},
+						"libdt": {
+							"type": "string"
+						},
+						"librgdt": {
+							"type": "string"
+						},
+						"pan": {
+
+							"properties": {
+								"iv": {
+									"type": "string"
+								},
+								"num": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"num",
+								"iv"
+							],
+							"type": "object"
+						},
+						"regtypecd": {
+							"type": "string"
+						},
+						"rgfmdt": {
+							"type": "string"
+						},
+						"rslibrg": {
+							"type": "string"
+						},
+						"sgsttuovamt": {
+							"type": "string"
+						},
+						"stcd": {
+							"type": "string"
+						},
+						"stjd": {
+							"type": "string"
+						},
+						"trdnm": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"trdnm",
+						"sgsttuovamt",
+						"authstatus",
+						"lgnmbzst",
+						"rgfmdt",
+						"estsgstamt",
+						"regtypecd",
+						"dst",
+						"iscasdl",
+						"cobz",
+						"librgdt",
+						"estcgstamt",
+						"pan",
+						"cgsttuovamt",
+						"stcd",
+						"cesstuovamt",
+						"libdt",
+						"ctjd",
+						"igsttuovamt",
+						"iscmpdecl",
+						"isopcmp",
+						"cobz_oth",
+						"stjd",
+						"estcessamt",
+						"estspamt",
+						"lgnmbzpan",
+						"rslibrg",
+						"estigstamt"
+					],
+					"type": "object"
+				},
+				"exrgdtls": {
+
+					"items": {
+
+						"properties": {
+							"gstinrefid": {
+								"type": "string"
+							},
+							"regdt": {
+								"type": "string"
+							},
+							"regnum": {
+								"type": "string"
+							},
+							"regtyp": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"regnum",
+							"regdt",
+							"regtyp",
+							"gstinrefid"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				}
+			},
+			"required": [
+				"bzdtlsbz",
+				"exrgdtls"
+			],
+			"type": "object"
+		},
+		"decdtls": {
+
+			"properties": {
+				"asdes": {
+					"type": "string"
+				},
+				"asnm": {
+					"type": "string"
+				},
+				"dt": {
+					"type": "string"
+				},
+				"pl": {
+					"type": "string"
+				},
+				"signty": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"signty",
+				"dt",
+				"asnm",
+				"asdes",
+				"pl"
+			],
+			"type": "object"
+		},
+		"gdssvcdtls": {
+
+			"properties": {
+				"bzgddtls": {
+
+					"items": {
+
+						"properties": {
+							"eid": {
+								"type": "string"
+							},
+							"gdes": {
+								"type": "string"
+							},
+							"hsncd": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"hsncd",
+							"eid",
+							"gdes"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"bzsdtls": {
+
+					"items": {
+
+						"properties": {
+							"eid": {
+								"type": "string"
+							},
+							"saccd": {
+								"type": "string"
+							},
+							"sdes": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"sdes",
+							"eid",
+							"saccd"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				}
+			},
+			"required": [
+				"bzgddtls",
+				"bzsdtls"
+			],
+			"type": "object"
+		},
+		"gstin": {
+			"type": "string"
+		},
+		"opdtls": {
+
+			"items": {
+
+				"properties": {
+					"dcupdtls": {
+
+						"items": {
+
+							"properties": {
+								"hash": {
+									"type": "string"
+								},
+								"id": {
+									"type": "string"
+								},
+								"ty": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"hash",
+								"id",
+								"ty"
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"dg": {
+						"type": "string"
+					},
+					"din": {
+
+						"properties": {
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"num"
+						],
+						"type": "object"
+					},
+					"dob": {
+						"type": "string"
+					},
+					"eid": {
+						"type": "string"
+					},
+					"fhfn": {
+						"type": "string"
+					},
+					"fhln": {
+						"type": "string"
+					},
+					"fhmn": {
+						"type": "string"
+					},
+					"fn": {
+						"type": "string"
+					},
+					"gd": {
+						"type": "string"
+					},
+					"isasg": {
+						"type": "string"
+					},
+					"iscitind": {
+						"type": "string"
+					},
+					"ln": {
+						"type": "string"
+					},
+					"mn": {
+						"type": "string"
+					},
+					"pan": {
+
+						"properties": {
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"num"
+						],
+						"type": "object"
+					},
+					"ppno": {
+						"type": "string"
+					},
+					"rsad": {
+
+						"properties": {
+							"bnm": {
+								"type": "string"
+							},
+							"bno": {
+								"type": "string"
+							},
+							"cnty": {
+								"type": "string"
+							},
+							"dst": {
+								"type": "string"
+							},
+							"flno": {
+								"type": "string"
+							},
+							"loc": {
+								"type": "string"
+							},
+							"pncd": {
+								"type": "string"
+							},
+							"st": {
+								"type": "string"
+							},
+							"stcd": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"loc",
+							"dst",
+							"pncd",
+							"stcd",
+							"st",
+							"bno",
+							"cnty"
+						],
+						"type": "object"
+					},
+					"tlphno": {
+						"properties": {
+							"stdCd": {
+								"type": "string"
+							},
+							"telNum": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"stdCd",
+							"telNum"
+						],
+						"type": "object"
+					},
+					"uid": {
+
+						"properties": {
+							"isdecl": {
+								"type": "string"
+							},
+							"num": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"isdecl",
+							"num"
+						],
+						"type": "object"
+					}
+				},
+				"required": [
+					"em",
+					"tlphno",
+					"iscitind",
+					"dg",
+					"rsad",
+					"dcupdtls",
+					"mbno",
+					"fhfn",
+					"eid",
+					"gd",
+					"pan",
+					"dob",
+					"isasg",
+					"fn"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"ppbzdtls": {
+
+			"properties": {
+				"add": {
+
+					"properties": {
+						"bnm": {
+							"type": "string"
+						},
+						"bno": {
+							"type": "string"
+						},
+						"dst": {
+							"type": "string"
+						},
+						"flno": {
+							"type": "string"
+						},
+						"lg": {
+							"type": "string"
+						},
+						"loc": {
+							"type": "string"
+						},
+						"lt": {
+							"type": "string"
+						},
+						"pncd": {
+							"type": "string"
+						},
+						"st": {
+							"type": "string"
+						},
+						"stcd": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"loc",
+						"dst",
+						"pncd",
+						"stcd",
+						"st",
+						"bno"
+					],
+					"type": "object"
+				},
+				"contdtls": {
+
+					"properties": {
+						"em": {
+							"type": "string"
+						},
+						"fxno": {
+
+							"properties": {
+								"fxNum": {
+									"type": "string"
+								},
+								"stdCd": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"stdCd",
+								"fxNum"
+							],
+							"type": "object"
+						},
+						"mbno": {
+							"type": "string"
+						},
+						"tlphno": {
+
+							"properties": {
+								"stdCd": {
+									"type": "string"
+								},
+								"telNum": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"stdCd",
+								"telNum"
+							],
+							"type": "object"
+						}
+					},
+					"required": [
+						"mbno",
+						"em"
+					],
+					"type": "object"
+				},
+				"dcupdtls": {
+
+					"items": {
+
+						"properties": {
+							"hash": {
+								"type": "string"
+							},
+							"id": {
+								"type": "string"
+							},
+							"ty": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"hash",
+							"id",
+							"ty"
+						],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"eid": {
+					"type": "string"
+				},
+				"ntbz": {
+
+					"items": {
+						"type": "string"
+					},
+					"type": "array"
+				},
+				"otherntbz": {
+					"type": "string"
+				},
+				"psnt": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"psnt",
+				"dcupdtls",
+				"add",
+				"eid",
+				"ntbz",
+				"contdtls",
+				"otherntbz"
+			],
+			"type": "object"
+		},
+		"stsidtls": {
+
+			"properties": {
+				"exlcnm": {
+					"type": "string"
+				},
+				"ptecnum": {
+					"type": "string"
+				},
+				"ptrcnum": {
+					"type": "string"
+				},
+				"stexlcnum": {
+					"type": "string"
+				}
+			},
+			"required": [],
+			"type": "object"
+		},
+        "supdcdtls": {
+			"items": {
+				"properties": {
+					"ct": {
+						"type": "string"
+					},
+					"hash": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"ty": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"ty",
+					"hash",
+					"id",
+					"ct"
+				],
+				"type": "object"
+			},
+			"type": "array"
+		}
+	},
+	"required": [
+		"decdtls",
+		"gdssvcdtls",
+		"arepdtls",
+		"bkacdtls",
+		"adbzdtls",
+		"asgdtls",
+		"opdtls",
+		"bzdtls",
+		"gstin",
+		"ppbzdtls"
+	],
+	"type": "object"
+}
